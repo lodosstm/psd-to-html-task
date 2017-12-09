@@ -1,0 +1,25 @@
+//переменные цвета
+$red: #9B242D;  $green: #46a651;  $grey: #f1efec; $blue: #3b5997;
+$greyfoot: #373838; $bluetw: #3ec2f3; $redgoo: #e44c41;
+//общий стиль
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import "size.scss";
+@import "header.scss"; //стили header+banner
+@import "belowbanner.scss"; //стили плитки
+@import "footer.scss"; //стили footer
+@import "window.scss"; //стили всплывающего окошка
+@import "skroll.scss"; //стили прокрутки
+@import "../less/hamburger.css"; //меню
+@import "media.scss";
+body {
+    height: 2730px;
+    min-width: 320px;
+    max-width: 1920px;
+    width: 100%;
+    margin: 0;
+    float: left;
+    font-family: "Roboto Slab", serif;
+    a {text-decoration: none;
+      cursor: pointer;}
+    }
