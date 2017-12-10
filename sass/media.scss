@@ -1,0 +1,54 @@
+@media screen and (max-width: 768px) {
+  body {height: 2660 !important;}
+  #left {background-size: contain;}
+  .right p{margin-top: auto !important;}
+  #sign {padding-right: 0.5% !important;
+         padding-left: 0.5% !important;
+          input {padding-left: 0 !important;}
+          button {width: 32% !important;}}
+  nav {display: none;}
+  hr {display: none;}
+  .outer-menu {
+      top: 41px;
+      left: 83%;
+      z-index: 1;}
+  #left {margin-right: 0px !important;
+          padding-right: 3.5%;}
+  #square1 {
+        margin-left: 1% !important;
+        width:33% !important;
+        button {width: 54% !important; }
+        }
+  #square2 {
+        margin-left: 34% !important;
+        width: 33% !important;
+        button {width: 54% !important; }
+        }
+  #square3 {width: 33% !important;
+        margin-left: 67% !important;
+        button {width: 54% !important; }
+        }
+  #center-footer {
+    height: 330px !important;
+    padding:5.1% 0 0 0 !important;}
+  .fb {  margin:0px 3px 0px 0px !important;}
+  .twitter {margin:0px 3px 0px 0px !important;}
+  .google {margin:0px 3px 0px 0px !important;}
+  #follow {width: auto !important;}
+  #newsletter { width: 74.2% !important;
+              input {padding-left: 0 !important;}}
+  #contacts { width: 22.2% !important;
+              margin-right: 7px !important;}
+  #bottom {margin: 4% auto !important;}
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  #center-footer {
+    height: 330px !important;
+    padding:4.1% 0 0 0 !important;}
+  #sign {padding-right: 0.5% !important;
+         padding-left: 0.5% !important;}
+  hr {display: none;}
+  header {padding-right: 0px  !important;}
+  #left {margin-right: 0px !important;
+         padding-right: 3.5%;}
+}
